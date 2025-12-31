@@ -1,9 +1,11 @@
-# Two-Tier Website Deployment on AWS (EC2, RDS, ALB)
+# Three-Tier Website Deployment on AWS (EC2, RDS, ALB)
 
 ## 📋 Project Overview
-**Uche's To-Do List** is a full-stack web application designed to demonstrate a **Two-Tier Architecture** deployment on AWS. The application allows users to manage tasks (create, read, update, delete) and stores data persistently in a MySQL database.
+**Uche's To-Do List** is a full-stack web application designed to demonstrate a **Three-Tier Architecture** deployment on AWS. The application allows users to manage tasks (create, read, update, delete) and stores data persistently in a MySQL database.
 
 This project showcases the integration of a frontend, a Node.js API backend, and a relational database, making it suitable for deploying on cloud infrastructure using services like **Amazon EC2** (for the application server) and **Amazon RDS** (for the database).
+
+![Three-Tier Web Application Architecture](3%20tier%20web%20application.gif)
 
 ## 🚀 Features
 - **Task Management**: Add new tasks with descriptions and due dates.
@@ -96,6 +98,9 @@ The server will start on `http://localhost:3000`. Open your browser and navigate
    - Clone the repo and install dependencies.
    - Set environment variables for RDS connection.
 3. **Load Balancing (Optional)**: Set up an **ALB** to forward traffic to your EC2 instance(s) for high availability.
+
+## 🎥 Video Demo
+[Watch the demo on TikTok](https://www.tiktok.com/@lightcloud9/video/7589660906271902998?is_from_webapp=1&sender_device=pc&web_id=7511774619469268485)
 
 ## 📄 License
 This project is licensed under the ISC License.
